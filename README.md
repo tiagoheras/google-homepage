@@ -1,1 +1,1 @@
-deconstruct an existing web page an rebuild it using devtools.
+deconstruct google search site and rebuild it using devtools.
