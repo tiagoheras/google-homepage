@@ -2,29 +2,32 @@
 <html>
     <head>
         <title>Google</title>
+        <link rel="stylesheet" href="./reset.css">
         <link rel="stylesheet" href="./styles.css">
     </head>
     <body>
         <header>
-            <div>
+            <div class="nav">
             <a class="navbar-items" href="https://mail.google.com/mail/?tab=wm&ogbl"><h3>Gmail</h3></a>
-            <a class="navbar-items" href="https://www.google.com.ar/imghp?hl=es&tab=wi&ogbl"><h3>Imágenes</h3></a>
+            <a class="navbar-items second-item" href="https://www.google.com.ar/imghp?hl=es&tab=wi&ogbl"><h3>Imágenes</h3></a>
             </div>
             <div>
             <a id="google-apps" href="https://www.google.com.ar/intl/es/about/products?tab=ih"></a>
-            <button>Iniciar sesión</button>
+            <button class="second-item">Iniciar sesión</button>
             </div>
         </header>
         <main>
             <img id="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
-            <div id="search-bar">
-                <img src="" alt="">
+            <div id="searchbar">
+                <!-- <svg viewBox='0 0 24 24'>
+                        <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                </svg> -->
             </div>
-            <div id="search-bar-buttons">
+            <div id="searchbar-buttons">
                 <button>Buscar con Google</button>
                 <button>Me siento con suerte</button>
             </div>
-            <p>Ofrecido por Google en <a href="https://www.google.com/setprefs?sig=0_NOlX6bga_LIJSrdsFDGhuZx1tFU%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwjJ_Mf1wf7tAhVOJrkGHXqsBzIQ2ZgBCA4">English</a> <a href="https://www.google.com/setprefs?sig=0_NOlX6bga_LIJSrdsFDGhuZx1tFU%3D&hl=es-419&source=homepage&sa=X&ved=0ahUKEwjJ_Mf1wf7tAhVOJrkGHXqsBzIQ2ZgBCA8">Español (Latinoamérica)</a></p>
+            <p>Ofrecido por Google en: <a href="https://www.google.com/setprefs?sig=0_NOlX6bga_LIJSrdsFDGhuZx1tFU%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwjJ_Mf1wf7tAhVOJrkGHXqsBzIQ2ZgBCA4">English</a> <a href="https://www.google.com/setprefs?sig=0_NOlX6bga_LIJSrdsFDGhuZx1tFU%3D&hl=es-419&source=homepage&sa=X&ved=0ahUKEwjJ_Mf1wf7tAhVOJrkGHXqsBzIQ2ZgBCA8">Español (Latinoamérica)</a></p>
         </main>
         <footer>
             <div id="country-container">
@@ -40,7 +43,7 @@
                 <ul>
                     <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjJ_Mf1wf7tAhVOJrkGHXqsBzIQ8awCCBI&url=https%3A%2F%2Fpolicies.google.com%2Fprivacy%3Fhl%3Des-AR%26fg%3D1&usg=AOvVaw14kNQpYWQWLHKValxdIzRi">Privacidad</a></li>
                     <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjJ_Mf1wf7tAhVOJrkGHXqsBzIQ8qwCCBM&url=https%3A%2F%2Fpolicies.google.com%2Fterms%3Fhl%3Des-AR%26fg%3D1&usg=AOvVaw2w7cJmD2FZbF7iN7kBE6OP">Condiciones</a></li>
-                    <li><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjJ_Mf1wf7tAhVOJrkGHXqsBzIQzq0CCBQ&url=https%3A%2F%2Fwww.google.com%2Fpreferences%3Fhl%3Des&usg=AOvVaw2Ba1K1jJx2iZaWD0ZYzktn">Preferencias</a></li>
+                    <li id="last-item"><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&cad=rja&uact=8&ved=0ahUKEwjJ_Mf1wf7tAhVOJrkGHXqsBzIQzq0CCBQ&url=https%3A%2F%2Fwww.google.com%2Fpreferences%3Fhl%3Des&usg=AOvVaw2Ba1K1jJx2iZaWD0ZYzktn">Preferencias</a></li>
                 </ul>
             </div>
         </footer>
